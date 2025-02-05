@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(13, 68, 131);
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container > div{
+    box-shadow: 0 0 15px rgb(255, 254, 254);
+    padding: 20px 50px;
+    border-radius: 90px;
+    background-color: aliceblue;
+    color: rgb(13, 68, 131);
+    text-align: center;
+    margin: 0px 50px;
+}
+h2{
+    font-size: 30px;
+    font-style: italic;
+}
+button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+.counter{
+    background-color: rgb(122, 122, 107);
+    border-radius: 30px;
+}
+.counter:hover{
+    box-shadow: 0 0 15px rgb(0, 0, 0);  
+}
+.new{
+    color: rgb(13, 68, 131);
+    border: 2px solid rgb(13, 68, 131);
+    background-color: transparent;
+}
+
+.reset{
+    background-color: rgb(13, 68, 131);
+}
+@media (max-width:767px) {
+    .container > div{
+        padding: 20px 30px;
+        border-radius: 80px
+    }
+    h2{
+        font-size: 20px;
+    }
+}
